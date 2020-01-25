@@ -90,6 +90,7 @@ extern "C" {
 #include "COM_OutputFileNode.h"
 #include "COM_RenderLayersNode.h"
 #include "COM_RotateNode.h"
+#include "COM_RougeOneNode.h"
 #include "COM_ScaleNode.h"
 #include "COM_ScaleOperation.h"
 #include "COM_SeparateColorNode.h"
@@ -383,6 +384,9 @@ Node *Converter::convert(bNode *b_node)
       break;
     case CMP_NODE_KEYING:
       node = new KeyingNode(b_node);
+      break;
+    case CMP_NODE_ROUGEONE:
+      node = new RougeOneNode(b_node);
       break;
     case CMP_NODE_TRACKPOS:
       node = new TrackPositionNode(b_node);

@@ -3842,6 +3842,7 @@ static void registerCompositNodes(void)
   register_node_type_cmp_value();
   register_node_type_cmp_rgb();
   register_node_type_cmp_curve_time();
+  register_node_type_cmp_rougeone();
   register_node_type_cmp_movieclip();
 
   register_node_type_cmp_composite();

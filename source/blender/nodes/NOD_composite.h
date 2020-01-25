@@ -40,6 +40,7 @@ void register_node_type_cmp_texture(void);
 void register_node_type_cmp_value(void);
 void register_node_type_cmp_rgb(void);
 void register_node_type_cmp_curve_time(void);
+void register_node_type_cmp_rougeone(void);
 void register_node_type_cmp_movieclip(void);
 
 void register_node_type_cmp_composite(void);

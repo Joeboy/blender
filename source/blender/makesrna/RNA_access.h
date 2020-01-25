@@ -173,6 +173,7 @@ extern StructRNA RNA_CompositorNodeRGB;
 extern StructRNA RNA_CompositorNodeRGBToBW;
 extern StructRNA RNA_CompositorNodeRLayers;
 extern StructRNA RNA_CompositorNodeRotate;
+extern StructRNA RNA_CompositorNodeRougeOne;
 extern StructRNA RNA_CompositorNodeScale;
 extern StructRNA RNA_CompositorNodeSepHSVA;
 extern StructRNA RNA_CompositorNodeSepRGBA;

@@ -343,6 +343,11 @@ set(SRC
   operations/COM_TrackPositionOperation.cpp
   operations/COM_TrackPositionOperation.h
 
+  nodes/COM_RougeOneNode.cpp
+  nodes/COM_RougeOneNode.h
+  operations/COM_RougeOneOperation.cpp
+  operations/COM_RougeOneOperation.h
+
   nodes/COM_KeyingNode.cpp
   nodes/COM_KeyingNode.h
   operations/COM_KeyingBlurOperation.cpp

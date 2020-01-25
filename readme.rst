@@ -1,3 +1,13 @@
+Rouge One compositor node template
+==================================
+
+This is a branch of Blender, which adds a compositor node called "Rouge One".
+It doesn't do anything very useful (it just sets the red channel to 1.0), but
+it does provide a minimal example of a compositor node. The latest commit
+contains everything required to add a new node. Hopefully it might save you a
+bit of time if you're thinking of writing a new compositor node. In fact
+you could easily use this as a template for your own node.
+
 
 .. Keep this document short & concise,
    linking to external resources instead of including content in-line.
